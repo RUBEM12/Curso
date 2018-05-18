@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <form action="backend/api">
+        <input type="text" name="Nome" placeholder="Nome" /> Nome:
+        <br>
+        <input type="text" name="Email" placeholder="Email" /> Email:
+        <br>
+        <input type="text" name="Telefone" placeholder="Telefone" /> Telefone:
+        <br>
+        <input type="text" name="Assunto" placeholder="Assunto" /> Assunto:
+        <br>
+        <p>Mensagem</p>
+        <textarea name="" id="" cols="30" placeholder="Digite sua mensagem" rows="10"></textarea>
+        <select name="Pais" id="boy" >
+            <option value="Pt-Br">Brasil</option>
+            <option value="Fr">França</option>
+            <option value="J">Japão</option>
+            <option value="Es-Ag">Argentina</option>
+            <option value="Es-Ja">Jaguarão</option>
+            <option value="En-EUA" selected>E.U.A</option>
+            <option value="En-Ca">Canada</option>
+            <option value="Es-Ch">Chile</option>
+            <option value="Es-Me">Mexico</option>
+        </select>
+
+        <input type="submit" value="enviar">
+
+        <input type="reset" value="limpar">
+
+    </form>
+    <script type="text/javascript">
+        var x = document.getElementById("boy");
+        x.addEventListener("change", function(event) {
+            alert(event.target.value); 
+        }, false);
+    </script>
+
+</body>
+
+</html>
