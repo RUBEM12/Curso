@@ -1,0 +1,23 @@
+ body {
+    text-align: center; 
+    color: black ;
+    font-family: Helvetica, sans-serif;
+    
+}
+h1 {
+    border-bottom-style: inset;
+}
+
+img{
+    border-radius:50px;
+}
+p {
+    padding: 10px; 
+    box-sizing: border-box;
+}
+
+ img:hover {
+    border: 15px double rgba(255, 253, 253, 0.005);
+    transition: 0.8s ;
+ }
+ 
