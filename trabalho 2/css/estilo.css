@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: gray;
+}
+.logo {
+    text-align: left;
+}
+.nav {
+    text-align: top;
+}
+.img {
+    box-align: center;
+}
+
+.produto {
+    display: inline-block;
+    text-align: left;
+}
+.margem {
+    margin-left: 50px;
+    margin-right: 50px;
+}
