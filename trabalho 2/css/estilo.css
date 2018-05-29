@@ -1,16 +1,11 @@
 body {
-    text-align: center;
+
     font-family: Helvetica, Arial, sans-serif;
     color: gray;
 }
-.logo {
-    text-align: left;
-}
-.nav {
-    text-align: top;
-}
 .img {
     box-align: center;
+    text-align: center;
 }
 
 .produto {
@@ -20,4 +15,30 @@ body {
 .margem {
     margin-left: 50px;
     margin-right: 50px;
+}
+#titulo {
+    color: rgba(240, 248, 255, 0);
+}
+.texto {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.last {
+    text-align: center;
+}
+.header {
+    display: inline-block;
+    text-align: center;
+}
+.footer {
+    margin-top: 150px; 
+    border-top-style: inset;
+    text-align: left;
+}
+#cont {
+    text-align: right;
+}
+#top {
+    margin-top: 150px;
 }
