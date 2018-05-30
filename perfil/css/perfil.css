@@ -26,3 +26,6 @@ img:hover {
     border: 7px inset rgba(33, 34, 87, 0.041);
     transition: 0.7s;
 }
+#link{
+    color:rgb(40, 120, 185);
+}
