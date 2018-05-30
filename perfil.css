@@ -1,0 +1,31 @@
+body {
+ background-image: Url(../imagens/paisagen.jpeg);
+ text-align: center;
+ font-family: Helvetica, Arial, sans-serif;
+}
+.link {
+    bottom: 2px;
+    border: 3px inset rgb(48, 46, 46);
+}
+
+.texto {
+    top: 2px;
+    border: 3px inset rgb(48, 46, 46);
+}
+
+img {
+    weight: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+img {
+    position: center;
+	top: 250px; 
+}
+img:hover {
+    border: 7px inset rgba(33, 34, 87, 0.041);
+    transition: 0.7s;
+}
+#link{
+    color:rgb(40, 120, 185);
+}
