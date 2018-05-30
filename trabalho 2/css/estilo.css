@@ -1,10 +1,9 @@
 body {
-
     font-family: Helvetica, Arial, sans-serif;
     color: gray;
 }
+
 .img {
-    box-align: center;
     text-align: center;
 }
 
@@ -12,33 +11,76 @@ body {
     display: inline-block;
     text-align: left;
 }
+
 .margem {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+
 #titulo {
-    color: rgba(240, 248, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    font-size: 0px; 
 }
+
 .texto {
     margin-top: 70px;
     margin-bottom: 70px;
     text-align: center;
 }
+
 .last {
     text-align: center;
 }
-.header {
-    display: inline-block;
-    text-align: center;
-}
+
 .footer {
-    margin-top: 150px; 
-    border-top-style: inset;
-    text-align: left;
-}
-#cont {
-    text-align: right;
-}
-#top {
     margin-top: 150px;
+    border-top-style: inset;
+}
+
+.cont {  
+ float: right;
+}
+
+#copy {
+    margin-top: 15px;
+    float: left;
+}
+
+#projects {
+    margin-bottom: 50px;
+}
+.nav ul {
+    padding: 0;
+
+}
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+#logo, .nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav {
+    float: right;
+    float: both;
+}
+.learn {
+    font-size: 15px;
+    color: rgb(141, 78, 78) ;
+}
+.nav a {
+    text-decoration: none;
+    color: #000;
+    opacity: 1;
+    transition: 0.7s;
+
+}
+.nav a:hover {
+    text-decoration: underline;
+    opacity: .7;
+    transition: 0.7s;
+}
+.nav a {
+    margin-left: 30px; 
 }
