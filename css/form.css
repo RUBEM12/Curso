@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font-family:Helvetica, Arial, sans-serif;
+}
+
+#x {
+    border-bottom-style: inset;
+    width: 500px;
+    text-align: center;
+    margin-left: 520px;
+}
+
+label {
+    margin-left: 15px; 
+}
+
+form.not-ok input.error {
+    border: 3px inset red;
+}
