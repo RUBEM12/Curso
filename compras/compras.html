@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Lista de Compras</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="compras.png" alt="Compras da Semana" class="img-fluid mx-auto d-block">
+            </div>
+
+            <div class="col-sm-8" id="divCompras">
+
+                <h1>Compras da semana</h1>
+
+                <div class="form-group">
+
+                    <label for="produto">Produto:</label>
+                    <input type="text" id="inProduto" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <input type="button" value="Adicionar" class="btn btn-primary" id="btAdicionar">
+
+                    <input type="button" value="Selecionar" class="btn btn-warning" id="btSelecionar">
+
+                    <input type="button" value="Excluir" class="btn btn-danger" id="btExcluir">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="compras.js"></script>
+</body>
+
+</html>

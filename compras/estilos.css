@@ -1,0 +1,12 @@
+h1 {
+    border-bottom-style: inset; 
+}
+.h5Normal {
+    color: black;
+    font-style: normal;
+}
+.h5Destaque {
+    color: red;
+    font-style: italic;
+}
+
