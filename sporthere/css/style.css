@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 /* header */
 
@@ -193,4 +193,176 @@ h3{
 }
 .visible {
     display: block;
+}
+
+
+/* section 4 */
+
+.discover {
+    text-align: center;
+    padding: 105px 0 95px;
+}
+
+.discover p {
+    margin: 40px 60px 15px;
+    font-size: 17px;
+    color: #6a6a6a;
+}
+.discover h4 {
+    font-size: 30px;
+    color: #324d5b;
+}
+
+/*section 5 subscribe */
+
+.subscribe {
+    background: #26a6d1;
+    text-align: center;
+    color: #ffffff;
+    padding: 105px 0 115px;
+}
+
+.subscribe p {
+    font-size: 30px;
+    line-height: 40px;
+
+}
+
+.form {
+
+    display: inline-block;
+ 
+}
+
+.email {
+
+    border: 0;
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btSubscribe {
+    border: 0;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #26a6d1;
+    background: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* footer */
+
+
+footer {
+    padding: 90px 0;
+}
+
+footer .logo {
+    float: left;
+    margin: 0 95px 0 0;
+}
+
+footer .logo img {
+    display: block;
+}
+
+.apple {
+    float: left;
+    position: relative;
+    line-height: 36px;
+    text-align: center;
+    margin: 8px 62px 8px 0;
+}
+
+.apple a {
+    position: relative;
+    display: inline-block;
+    line-height: 36px;
+    font-size: 14px;
+    padding: 0 0 0 47px;
+}
+.copy {
+    float: left;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 8px 0;
+}
+
+.copy a {
+    color: #3db39e;
+    font-weight: bold;
+}
+.social {
+    
+}
+.d-block{
+    display: block;
+}
+
+
+
+.social {
+    float: right;
+    padding: 2px 0;
+}
+
+.social li {
+    float: left;
+    margin: 0 0 0 22px;
+    display: inline;
+}
+
+.social li a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}[]
+
+
+
+
+/* mobile */
+
+@media (max-width: 479px) {
+    body {
+        word-wrap: break-word;
+    }
+    header .nav{
+        display: none;
+    }
+    .green div img {
+        display: none;
+    }
+    .easy {
+        display: inline;
+    }
+    .discover p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .email {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .btSubscribe {
+        width: 100%;
+    }
+    .subscribe p {
+        margin-bottom: 30px;
+    }
+    .form {
+        margin-bottom: 30px
+    }
 }
