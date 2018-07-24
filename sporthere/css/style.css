@@ -146,12 +146,22 @@ h3{
     text-transform: uppercase;
     font-weight: bold;
     position: relative;
-    margin: 0 0 42px;
+    margin: 0 0 42px;    
 }
 .easy span {
     font-size: 14px;
     color: #696969;
 }
+.line {
+    background-color: #ccd0d2;
+    display: block;
+    width: 20px;
+    height: 2px;
+    position: relative;
+    left: 175px;
+    bottom: 25px;
+}
+
 
 /* section 3 carousel */
 
@@ -159,17 +169,30 @@ h3{
     background: #f6f6f6;
     display: block;
 }
+h5 {
+    font-size: 30px;
+    color: #324d5b;
+}
+.text p {
+    margin-top: 40px; 
+    font-size: 17px;
+    color: #6a6a6a;
+    line-height: 25px;
+}
 
 .carousel .container img {
     float: left;
     margin: 120px 0px 0px 0px;
 }
 .text {
-    float: right;
-    margin-top: 45px;
+    position: relative;
+    left: 115px;
+    top: 200px;
 }
-.article .x .selectors  {
-    margin: 145px 350px 0px 125px;
+.x {
+    position: relative;
+    right: 640px;
+    top: 150px;
 }
 
 .selectors li {
@@ -221,21 +244,19 @@ h3{
     color: #ffffff;
     padding: 105px 0 115px;
 }
-
-.subscribe p {
+.subscribe h6 {
     font-size: 30px;
     line-height: 40px;
-
 }
-
 .form {
-
     display: inline-block;
- 
+}
+.subscribe span {
+    text-align: center;
+
 }
 
 .email {
-
     border: 0;
     width: 400px;
     height: 50px;
@@ -309,8 +330,6 @@ footer .logo img {
 .d-block{
     display: block;
 }
-
-
 
 .social {
     float: right;
