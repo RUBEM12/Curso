@@ -199,13 +199,13 @@ h5 {
 
 .text {
     float: right;
-    margin: 40px 150px 0px 0;
+    margin: 40px 250px 0px 0;
 
 }
 
 .x {
     float: right;
-    margin: 150px 433px 0px 0px;
+    margin: 150px 533px 0px 0px;
 }
 
 .selectors li {
@@ -280,18 +280,14 @@ h5 {
     background: #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
-    margin-top: 25px; 
+    margin-top: 24px; 
     
 } 
 
-/*
-.email::placeholder {
+/* .email::placeholder {
     color:#ccd0d2;
     font-size: 18px;
-?
-?
-?
-?
+
 }​ */
 
 .btSubscribe {
@@ -350,10 +346,6 @@ footer .logo img {
     display: inline-block;
 }
 
-.social li a {
-
-}
-
 /* mobile */
 
 @media (max-width: 479px) {
@@ -403,3 +395,8 @@ footer .logo img {
         margin-bottom: 30px
     }
 }
+.email::placeholder {
+    color:#ccd0d2;
+    font-size: 18px;
+
+}​
