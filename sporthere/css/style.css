@@ -5,9 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    word-wrap: break-word;
 }
+
 /* header */
 
 header h1 {
@@ -49,8 +52,8 @@ header .nav {
 .green {
     background-color: #3db39e;
     color: #fff;
-
 }
+
 .green .container {
     position: relative;
     min-height: 635px;
@@ -68,7 +71,9 @@ header .nav {
 .landing p {
     padding: 35px 0 0;
     margin-bottom: 40px;
+    width:
 }
+
 .landing h2 {
     font-size: 55px;
     line-height: 60px;
@@ -96,6 +101,7 @@ header .nav {
     font-weight: bold;
     font-size: 20px;
 }
+
 #link {
     color: #ffffff;
     font-size: 20px;
@@ -112,23 +118,30 @@ header .nav {
     color: #000;
     text-align: center;
 }
+
 .title {
     text-align: center
 }
-h3{
-    font-size: 30px; 
+
+h3 {
+    font-size: 30px;
     margin-bottom: 30px;
     color: #324d5b;
 }
+
 .title p {
     font-size: 17px;
     margin-bottom: 90px;
     color: #6a6a6a;
+    width: 62%;
+    margin: auto;
+    margin-bottom: 90px;
 }
 
 .white {
     margin: 115px 0 60px;
 }
+
 .easy {
     float: left;
     width: 33%;
@@ -138,30 +151,32 @@ h3{
     padding: 0 25px;
     margin: 0 0 50px;
     box-sizing: border-box;
-} 
+}
+
 .easy p {
     color: #2b414d;
     font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    position: relative;
-    margin: 0 0 42px;    
+    margin: 0 0 42px;
 }
+
 .easy span {
     font-size: 14px;
     color: #696969;
 }
+
 .line {
     background-color: #ccd0d2;
     display: block;
+    text-align: center;
     width: 20px;
     height: 2px;
-    position: relative;
-    left: 175px;
-    bottom: 25px;
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
-
 
 /* section 3 carousel */
 
@@ -169,12 +184,14 @@ h3{
     background: #f6f6f6;
     display: block;
 }
+
 h5 {
     font-size: 30px;
     color: #324d5b;
 }
+
 .text p {
-    margin-top: 40px; 
+    margin-top: 40px;
     font-size: 17px;
     color: #6a6a6a;
     line-height: 25px;
@@ -184,20 +201,21 @@ h5 {
     float: left;
     margin: 120px 0px 0px 0px;
 }
+
 .text {
-    position: relative;
-    left: 115px;
-    top: 200px;
+    float: right;
+    margin-top: 200px; 
+
 }
+
 .x {
     position: relative;
-    right: 640px;
     top: 150px;
+    right: 358px;
 }
 
 .selectors li {
     display: inline;
-    text-decoration: none;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -214,10 +232,10 @@ h5 {
 .box {
     display: none;
 }
+
 .visible {
     display: block;
 }
-
 
 /* section 4 */
 
@@ -230,7 +248,10 @@ h5 {
     margin: 40px 60px 15px;
     font-size: 17px;
     color: #6a6a6a;
+    width: 63%;
+    margin: auto;
 }
+
 .discover h4 {
     font-size: 30px;
     color: #324d5b;
@@ -244,16 +265,19 @@ h5 {
     color: #ffffff;
     padding: 105px 0 115px;
 }
+
 .subscribe h6 {
     font-size: 30px;
     line-height: 40px;
+    margin-top: -20px;
 }
-.form {
-    display: inline-block;
-}
-.subscribe span {
-    text-align: center;
 
+.subscribe p {
+    text-align: center;
+    margin: 40px 0 -30px;
+    width: 45%;
+    margin: auto;
+    margin-top: 40px;
 }
 
 .email {
@@ -266,6 +290,12 @@ h5 {
     background: #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
+    margin-top: 24px;
+}
+
+.email::-webkit-input-placeholder {
+    color: #ccd0d2;
+    font-size: 18px;
 }
 
 .btSubscribe {
@@ -284,104 +314,164 @@ h5 {
 
 /* footer */
 
-
 footer {
-    padding: 90px 0;
-}
-
-footer .logo {
-    float: left;
-    margin: 0 95px 0 0;
+    height: 130px;
 }
 
 footer .logo img {
-    display: block;
+    float: left;
+    margin-top: 0px;
 }
 
 .apple {
-    float: left;
-    position: relative;
-    line-height: 36px;
-    text-align: center;
-    margin: 8px 62px 8px 0;
+    margin: 70px 0 0 350px;
+
+
+}
+
+.apple img {
+    vertical-align: middle;
+    margin-right: -110px;
 }
 
 .apple a {
-    position: relative;
-    display: inline-block;
-    line-height: 36px;
     font-size: 14px;
-    padding: 0 0 0 47px;
+    color: #26a6d1;
+    vertical-align: middle;
 }
+
 .copy {
-    float: left;
     font-size: 14px;
-    line-height: 36px;
-    margin: 8px 0;
+    margin: -25px 0 0 115px;
+    vertical-align: middle;
 }
 
 .copy a {
     color: #3db39e;
     font-weight: bold;
 }
-.social {
-    
-}
-.d-block{
-    display: block;
-}
 
 .social {
     float: right;
-    padding: 2px 0;
+    margin: -27px 0 0 120px;
 }
 
 .social li {
-    float: left;
-    margin: 0 0 0 22px;
-    display: inline;
+    margin: 0 0 0 25px;
+    display: inline-block;
 }
-
-.social li a {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-}
-
-
-
 
 /* mobile */
 
 @media (max-width: 479px) {
     body {
         word-wrap: break-word;
+        zoom: 80%
     }
-    header .nav{
+    .container {
+        overflow: hidden;
+        width: 90%;
+        margin: auto;
+    }
+    /* header */
+    #logo {
+        margin-left: 60px;
+    }
+    header .nav {
         display: none;
+    }
+    /* section 1 */
+    .green {
+        height: 1200px;
+        text-align: center;
+        margin: auto;
     }
     .green div img {
-        display: none;
+        position: initial !important;
     }
+    .landing p {
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    /* section 2 */
     .easy {
-        display: inline;
+        width: 80%;
+        margin: 0 0 50px 35px;
     }
+    .title p {
+        width: 110%;
+        margin-bottom: 40px;
+    }
+    .title {
+        width: 340px;
+        margin: auto;
+        margin-left: 10px;
+    }
+    /* section 3 carousel */
+    .text {
+        margin: auto;
+        margin-top: 200px; 
+    }
+    .x {
+        position: relative;
+        top: 150px;
+        right: 180px;
+    }
+    
+    /* section 4 */
     .discover p {
-        margin-left: 0;
-        margin-right: 0;
+        width: 97%;
+        margin-top: 30px;
     }
+    /* section 5 */
     .email {
         width: 100%;
         margin-bottom: 15px;
         text-align: center;
+    }
+    .subscribe h6 {
+        margin-top: 0;
     }
     .btSubscribe {
         width: 100%;
     }
     .subscribe p {
         margin-bottom: 30px;
+        width: 87%;
     }
     .form {
         margin-bottom: 30px
     }
+    /* footer */
+    footer {
+        height: 600px;
+    }
+    .apple {
+       display: inline-block;
+
+    }
+    .apple img {
+        margin-right: -90px; 
+    }
+    .logo {
+        display: none;
+    }
+    .apple {
+        background: #ffffff;
+        margin: 0 0 0 10px;
+        padding: 80px;
+    }
+    .footer480 {
+        background-color: #f6f6f6;
+        height: 280px;;
+    }
+    .social {
+        float: initial;
+        margin: 50px 0 0 55px;
+    }
+    .copy {
+        margin: 100px;
+    }
+
 }
