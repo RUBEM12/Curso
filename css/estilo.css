@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    color: black;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    border-bottom-style: inset;
+}
+img {
+    width: 600px;
+    height: 500px;
+}
+
+img:hover {
+    border: 15px double rgba(255, 253, 253, 0);
+    transition: 0.8s ;
+}
+.d-none {
+    display: none;
+}
+.d-block {
+    display: inline-block;
+    margin-top: 20px;
+}
+pre {
+    font-size: 1.2em;
+}
+
+.check {
+    display: inline-block;
+}
+
+.input {
+    display: inline-block;
+}
+h3 {
+    display: block;
+}
