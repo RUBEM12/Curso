@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>Hotelaria para Cachorro</title>
+</head>
+
+<body>
+    <img src="./hotelaria.jpg" alt="Hotel de Cachorros">
+
+    <h1>Hotelaria para Cachorro - Check-in</h1>
+
+    <p>Nome do Cachorro</p>
+    <input type="text" id="inNome" autofocus    >
+
+    <p>Valor da Diária R$:</p>
+    <input type="text" id="inValor">
+
+    <p>Saída</p>
+    <input type="radio" name="Saida" id="Check1">Hoje
+    <input type="radio" name="Saida" id="Check2">+ Diarias
+
+    <div class="d-none" id="OutCheck">
+        <p>Nº Diarias:</p>
+        <input type="number" min="2" id="inDiaria">
+    </div>
+
+    <input type="button" value="Incluir Cachorro" class="d-block btn" id="btAdicionar">
+
+    <div class="CheckIn d-none">
+        <h2>Check-in na Data Atual</h2>
+        <pre id="outResult"></pre>
+    </div>
+
+    <script src="hotelaria.js"></script>
+
+</body>
+
+</html>
