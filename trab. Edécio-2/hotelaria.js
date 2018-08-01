@@ -32,7 +32,7 @@ function adicionarCachorro() {
 
 
     mostrarCachorros(nome, valor);
-    valores = valores + valor;
+
 
     CheckIn.classList.remove('d-none');
 
