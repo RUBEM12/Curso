@@ -1,10 +1,10 @@
-$('.selectors li').on('click', function () {
-   var _this = $(this);
-   var index = _this.index();
-  $('.selectors li').removeClass('active');
+$(document).ready(function () {
 
- _this.addClass('active');
-   $('.carousel .box').removeClass('visible').hide();
-  $('.carousel .box').eq(index).addClass('visible').fadeIn(350);
 
+    $(".selectors").delegate("li:not(.active)", "click", function () {
+        $(this).addClass("active").siblings().removeClass("active").parents(".article").find(".box").hide().eq($(this).index()).fadeIn(300);
+        console.log("ativo");
+    });
+
+   
 });

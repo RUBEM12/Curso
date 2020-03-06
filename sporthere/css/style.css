@@ -5,11 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
 /* header */
 
 header h1 {
@@ -51,8 +49,8 @@ header .nav {
 .green {
     background-color: #3db39e;
     color: #fff;
-}
 
+}
 .green .container {
     position: relative;
     min-height: 635px;
@@ -71,7 +69,6 @@ header .nav {
     padding: 35px 0 0;
     margin-bottom: 40px;
 }
-
 .landing h2 {
     font-size: 55px;
     line-height: 60px;
@@ -99,7 +96,6 @@ header .nav {
     font-weight: bold;
     font-size: 20px;
 }
-
 #link {
     color: #ffffff;
     font-size: 20px;
@@ -116,17 +112,14 @@ header .nav {
     color: #000;
     text-align: center;
 }
-
 .title {
     text-align: center
 }
-
-h3 {
-    font-size: 30px;
+h3{
+    font-size: 30px; 
     margin-bottom: 30px;
     color: #324d5b;
 }
-
 .title p {
     font-size: 17px;
     margin-bottom: 90px;
@@ -136,7 +129,6 @@ h3 {
 .white {
     margin: 115px 0 60px;
 }
-
 .easy {
     float: left;
     width: 33%;
@@ -146,32 +138,30 @@ h3 {
     padding: 0 25px;
     margin: 0 0 50px;
     box-sizing: border-box;
-}
-
+} 
 .easy p {
     color: #2b414d;
     font-size: 18px;
     line-height: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    margin: 0 0 42px;
+    position: relative;
+    margin: 0 0 42px;    
 }
-
 .easy span {
     font-size: 14px;
     color: #696969;
 }
-
 .line {
     background-color: #ccd0d2;
     display: block;
-    text-align: center;
     width: 20px;
     height: 2px;
-    margin: auto;
-    margin-top: -20px ;
-    margin-bottom: 20px; 
+    position: relative;
+    left: 175px;
+    bottom: 25px;
 }
+
 
 /* section 3 carousel */
 
@@ -179,14 +169,12 @@ h3 {
     background: #f6f6f6;
     display: block;
 }
-
 h5 {
     font-size: 30px;
     color: #324d5b;
 }
-
 .text p {
-    margin-top: 40px;
+    margin-top: 40px; 
     font-size: 17px;
     color: #6a6a6a;
     line-height: 25px;
@@ -196,20 +184,20 @@ h5 {
     float: left;
     margin: 120px 0px 0px 0px;
 }
-
 .text {
-    float: right;
-    margin: 40px 250px 0px 0;
-
+    position: relative;
+    left: 115px;
+    top: 200px;
 }
-
 .x {
-    float: right;
-    margin: 150px 533px 0px 0px;
+    position: relative;
+    right: 640px;
+    top: 150px;
 }
 
 .selectors li {
     display: inline;
+    text-decoration: none;
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -226,10 +214,10 @@ h5 {
 .box {
     display: none;
 }
-
 .visible {
     display: block;
 }
+
 
 /* section 4 */
 
@@ -243,7 +231,6 @@ h5 {
     font-size: 17px;
     color: #6a6a6a;
 }
-
 .discover h4 {
     font-size: 30px;
     color: #324d5b;
@@ -257,20 +244,19 @@ h5 {
     color: #ffffff;
     padding: 105px 0 115px;
 }
-
 .subscribe h6 {
     font-size: 30px;
     line-height: 40px;
-    margin-top: -20px;
 }
-
-.subscribe p {
+.form {
+    display: inline-block;
+}
+.subscribe span {
     text-align: center;
-    margin: auto;
-    margin: 40px 0 -30px;
+
 }
 
- .email {
+.email {
     border: 0;
     width: 400px;
     height: 50px;
@@ -280,15 +266,7 @@ h5 {
     background: #ffffff;
     border-radius: 5px;
     box-sizing: border-box;
-    margin-top: 24px; 
-    
-} 
-
-/* .email::placeholder {
-    color:#ccd0d2;
-    font-size: 18px;
-
-}​ */
+}
 
 .btSubscribe {
     border: 0;
@@ -306,72 +284,87 @@ h5 {
 
 /* footer */
 
+
 footer {
-    height: 230px;
+    padding: 90px 0;
+}
+
+footer .logo {
+    float: left;
+    margin: 0 95px 0 0;
 }
 
 footer .logo img {
-    float: left;
-
+    display: block;
 }
 
-
 .apple {
+    float: left;
+    position: relative;
+    line-height: 36px;
+    text-align: center;
     margin: 8px 62px 8px 0;
 }
 
 .apple a {
+    position: relative;
     display: inline-block;
     line-height: 36px;
     font-size: 14px;
+    padding: 0 0 0 47px;
 }
-
 .copy {
+    float: left;
     font-size: 14px;
     line-height: 36px;
-    margin: 105px 0 0 95px;
+    margin: 8px 0;
 }
 
 .copy a {
     color: #3db39e;
     font-weight: bold;
 }
+.social {
+    
+}
+.d-block{
+    display: block;
+}
 
 .social {
     float: right;
+    padding: 2px 0;
 }
 
 .social li {
-    margin: 0 0 0 0 ;
-    display: inline-block;
+    float: left;
+    margin: 0 0 0 22px;
+    display: inline;
 }
+
+.social li a {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+
+
 
 /* mobile */
 
 @media (max-width: 479px) {
     body {
         word-wrap: break-word;
-        zoom: 75%;
     }
-    #logo {
-        margin-left: 100px; 
-    }
-    .container {
-        overflow: hidden;
-        width: 80%;
-        margin: auto;
-    }
-    header .nav {
+    header .nav{
         display: none;
     }
-    .green {
-        height: 1200px;
-        text-align: center;
-    }
     .green div img {
-    position: initial !important;
+        display: none;
     }
     .easy {
+        display: inline;
     }
     .discover p {
         margin-left: 0;
@@ -381,9 +374,6 @@ footer .logo img {
         width: 100%;
         margin-bottom: 15px;
         text-align: center;
-    }
-    .subscribe h6 {
-        margin-top: 0;
     }
     .btSubscribe {
         width: 100%;
@@ -395,8 +385,3 @@ footer .logo img {
         margin-bottom: 30px
     }
 }
-.email::placeholder {
-    color:#ccd0d2;
-    font-size: 18px;
-
-}​
